@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,6 +20,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* ✅ Font Awesome CDN هنا مباشرة */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKB4Imkb9O6Gx1p5iBL7Vwz+YOa0a13FJ4Eq1DJfFzj+OgIpS+5gF2+HrDbReJ7UB1yNQ2b3A=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
+         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
