@@ -98,6 +98,7 @@ function Footer() {
       <p className='text-xs mt-4 px-5 text-[#333] max-w-[1200px] mx-auto'>
         ©2025 BrickWorld Studios. All Rights Reserved. LEGO® and the LEGO® logo are trademarks of the LEGO Group. Use of this site constitutes acceptance of our Terms of Service and Privacy Policy. Products are intended for users aged 18 and up unless otherwise specified.
       </p>
+      
     </div>
   )
 }
