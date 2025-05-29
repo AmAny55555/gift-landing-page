@@ -18,8 +18,8 @@ function Card(props) {
   <div className="flex justify-center items-center w-full h-[335px] lg:h-[300px]">
     <Image src={props.src} width={201} height={335} alt="img" />
   </div>
-  <p className="text-center mt-2 text-xs flex items-center cursor-pointer justify-center gap-2 hover:text-red-500 whitespace-nowrap text-black">
-    View All <i className="fa-solid fa-angle-right"></i>
+  <p className="text-center mt-2 text-xs flex items-center cursor-pointer justify-center gap-2 whitespace-nowrap text-black  hover:text-yellow-500">
+    View Al <i className="fa-solid fa-angle-right"></i>
   </p>
 </div>
 
@@ -35,7 +35,7 @@ function Section() {
 </p>
 
 
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-4 lg:gap-10  justify-center items-center lg:p-10  mt-3">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 lg:gap-10  justify-center items-center lg:p-10  mt-3">
 
         <Card src={"/z.png"} />
         <Card src={"/zz.png"} />
