@@ -74,13 +74,13 @@ function Navbar() {
       </div>
 
       {menuOpen && (
-        <div className='absolute top-full left-0 w-full bg-[#FFD504] flex flex-col items-center gap-5 py-5 lg:hidden z-[500]'>
-          <Link href={"#"} className='capitalize text-black' onClick={() => setMenuOpen(false)}>home</Link>
-          <Link href={"#"} className='capitalize text-black' onClick={() => setMenuOpen(false)}>About</Link>
-          <Link href={"#"} className='capitalize text-black' onClick={() => setMenuOpen(false)}>Categories</Link>
-          <Link href={"#"} className='capitalize text-black' onClick={() => setMenuOpen(false)}>product</Link>
-          <Link href={"#"} className='capitalize text-black' onClick={() => setMenuOpen(false)}>location</Link>
-          <Link href={"#"} className='capitalize text-black' onClick={() => setMenuOpen(false)}>contact us</Link>
+        <div className='absolute top-full left-0 w-full bg-[#FFD504] flex flex-col items-center gap-5 py-5 lg:hidden z-[500]' onClick={() => setMenuOpen(false)}>
+          <Link href={"#"} className='capitalize text-black' >home</Link>
+          <Link href={"#"} className='capitalize text-black'  >About</Link>
+          <Link href={"#"} className='capitalize text-black'  >Categories</Link>
+          <Link href={"#"} className='capitalize text-black'  >product</Link>
+          <Link href={"#"} className='capitalize text-black'  >location</Link>
+          <Link href={"#"} className='capitalize text-black' >contact us</Link>
         </div>
       )}
     </div>
