@@ -6,22 +6,27 @@ function Footer() {
     <div>
       <div className='border-t border-t-black mt-10 p-5 flex flex-col md:flex-row gap-10'>
 
-<div className='col-1 w-[50%] flex items-center gap-4'>
-  <div className='relative bottom-32'>
-    <Image src={"/1.png"} alt='logo' width={140} height={140} />
-  </div>
+        <div className='col-1 w-full md:w-[50%] flex flex-col md:flex-row items-start gap-4'>
 
-  <div>
-    <Image src={"/111.png"} alt='loogo' width={200} height={200} className='w-[400px] h-[480px] object-fill' />
-  </div>
-</div>
+          {/* شعار صغير */}
+          <div className='relative sm:bottom-[-10px] md:bottom-[-20px] lg:bottom-[-40px]'>
+            <Image src={"/1.png"} alt='logo' width={140} height={140} />
+          </div>
 
+          {/* شعار كبير */}
+          <div className='sm:mt-2 md:mt-0'>
+            <Image
+              src={"/111.png"}
+              alt='logo'
+              width={486}
+              height={486}
+              className='w-full sm:max-w-[300px] md:w-[400px] md:h-[400px] lg:w-[486px] lg:h-[486px] object-contain'
+            />
+          </div>
 
+        </div>
 
-     
         <div className='col-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full md:w-1/2'>
-
-     
           <div>
             <h1 className='font-bold mb-4 text-black '>About us</h1>
             <ul className='text-sm text-[#00000099] space-y-1'>
@@ -33,9 +38,8 @@ function Footer() {
             </ul>
           </div>
 
-       
           <div>
-            <h1 className='font-bold mb-4  text-black '>Support</h1>
+            <h1 className='font-bold mb-4 text-black '>Support</h1>
             <ul className='text-sm text-[#00000099] space-y-1'>
               <li>Contact Us</li>
               <li>Find Building Instructions</li>
@@ -45,9 +49,8 @@ function Footer() {
             </ul>
           </div>
 
-       
           <div>
-            <h1 className='font-bold mb-4  text-black '>More from us</h1>
+            <h1 className='font-bold mb-4 text-black '>More from us</h1>
             <ul className='text-sm text-[#00000099] space-y-1'>
               <li>LEGO Magazine</li>
               <li>LEGO Education</li>
@@ -57,16 +60,14 @@ function Footer() {
             </ul>
           </div>
 
-        
           <div className='sm:col-span-2 lg:col-span-3 mt-6'>
-            <h1 className='font-bold mb-4  text-black '>Attractions</h1>
+            <h1 className='font-bold mb-4 text-black '>Attractions</h1>
             <ul className='text-sm text-[#00000099] space-y-1'>
               <li>LEGO House</li>
               <li>LEGOLAND Perks</li>
               <li>LEGOLAND Discovery Centers</li>
             </ul>
           </div>
-
         </div>
       </div>
 
@@ -92,14 +93,11 @@ function Footer() {
             <li className='cursor-pointer hover:underline'>Twitter</li>
           </ul>
         </div>
-
       </div>
 
-    
       <p className='text-xs mt-4 px-5 text-[#333] max-w-[1200px] mx-auto'>
         ©2025 BrickWorld Studios. All Rights Reserved. LEGO® and the LEGO® logo are trademarks of the LEGO Group. Use of this site constitutes acceptance of our Terms of Service and Privacy Policy. Products are intended for users aged 18 and up unless otherwise specified.
       </p>
-
     </div>
   )
 }
