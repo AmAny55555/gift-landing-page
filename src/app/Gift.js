@@ -5,7 +5,7 @@ function Gift() {
   return (
     <div className="overflow-hidden">
 
-      <p className='font-press text-xs text-center mt-10 mb-10'>
+      <p className='font-press text-xs text-center mt-10 mb-10 text-black'>
         A <span className='text-[#FFD502] bg-[#f9f5df] p-2 w-[70px] border border-amber-300 rounded-full'>
           Gift
         </span> as creative as they are
@@ -32,7 +32,7 @@ function Gift() {
 
       {/* النص والزرار - نفس المنطق */}
       <div className='scale-90 md:scale-100 flex justify-center items-center flex-col px-4 mt-10 transition-all duration-300'>
-        <p className='text-center text-sm max-w-2xl font-poppins'>
+        <p className='text-center text-sm max-w-2xl font-poppins text-black'>
           Can’t decide on the perfect set? Let them choose their own adventure with a LEGO® Gift Card.
           From epic builds to tiny treasures, they’ll get exactly what they love—when they want it.
           No stress, no guesswork, no expiration date. Just pure, build-it-your-way joy.
