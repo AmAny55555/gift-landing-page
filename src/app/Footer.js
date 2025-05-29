@@ -23,7 +23,7 @@ function Footer() {
 
      
           <div>
-            <h1 className='font-bold mb-4'>About us</h1>
+            <h1 className='font-bold mb-4 text-black '>About us</h1>
             <ul className='text-sm text-[#00000099] space-y-1'>
               <li>About Toys n Toys</li>
               <li>about lego</li>
@@ -35,7 +35,7 @@ function Footer() {
 
        
           <div>
-            <h1 className='font-bold mb-4'>Support</h1>
+            <h1 className='font-bold mb-4  text-black '>Support</h1>
             <ul className='text-sm text-[#00000099] space-y-1'>
               <li>Contact Us</li>
               <li>Find Building Instructions</li>
@@ -47,7 +47,7 @@ function Footer() {
 
        
           <div>
-            <h1 className='font-bold mb-4'>More from us</h1>
+            <h1 className='font-bold mb-4  text-black '>More from us</h1>
             <ul className='text-sm text-[#00000099] space-y-1'>
               <li>LEGO Magazine</li>
               <li>LEGO Education</li>
@@ -59,7 +59,7 @@ function Footer() {
 
         
           <div className='sm:col-span-2 lg:col-span-3 mt-6'>
-            <h1 className='font-bold mb-4'>Attractions</h1>
+            <h1 className='font-bold mb-4  text-black '>Attractions</h1>
             <ul className='text-sm text-[#00000099] space-y-1'>
               <li>LEGO House</li>
               <li>LEGOLAND Perks</li>
